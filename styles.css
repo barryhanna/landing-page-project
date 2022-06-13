@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --bg-color: #1f2937;
+
+  --hero-font-size: 48px;
+  --hero-font-weight: bold;
+  --hero-font-color: #f9faf8;
+  --hero-secondary-font-size: 18px;
+  --hero-secondary-font-color: #e5e7eb;
+
+  --header-logo-text-color: #f9faf8;
+  --header-logo-font-size: 24px;
+
+  --btn-color: #3882f6;
+
+  --info-header-font-size: 36px;
+  --info-header-font-weight: bold;
+  --info-header-font-color: #1f2937;
+
+  --quote-section-bg-color: #e5e7eb;
+  --quote-section-text-color: #1f2937;
+  --quote-section-font-size: 36px;
+  --quote-section-font-weight: light;
+  --quote-section-font-style: italic;
+}
