@@ -18,6 +18,7 @@ html {
   --clr-off-white: #f9faf8;
   --clr-light-grey: #e5e7eb;
   --clr-blue: #3882f6;
+  --clr-blue-light: hsl(217, 91%, 70%);
 
   --fs-base: 1rem;
   --fs2: 1.125rem; /* 18px */
@@ -39,6 +40,7 @@ html {
   --header-logo-font-size: var(--fs2);
 
   --btn-color: var(--clr-blue);
+  --btn-color--hover: var(--clr-blue);
 
   --info-header-font-size: var(--fs3);
   --info-header-font-weight: bold;
@@ -89,6 +91,12 @@ button {
   border-radius: var(--border-radius);
   padding: 1em 1.5em;
   cursor: pointer;
+  transition: background-color 200ms ease-in;
+}
+
+button:hover,
+button:active {
+  background-color: var(--clr-blue-light);
 }
 
 cite {
