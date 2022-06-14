@@ -74,6 +74,7 @@ blockquote {
 blockquote {
   font-size: var(--quote-section-font-size);
   font-style: var(--quote-section-font-style);
+  line-height: 1.3em;
 }
 
 img {
